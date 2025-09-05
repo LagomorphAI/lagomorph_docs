@@ -1,12 +1,15 @@
 ---
 title: Getting Started
 layout: page
+nav_order: 2
 ---
 
 # Getting Started
 
 ## Unity
+
 ### Installation
+
 Installation instruction for the Unity plugin here
 
 ### Quick start guide
@@ -24,7 +27,9 @@ Installation instruction for the Unity plugin here
 6. Remove morphs you no longer need
 
 ## Unreal Engine
+
 ### Installation
+
 Installation instruction for the Unreal Engine plugin here
 
 ### Quick start guide
@@ -40,3 +45,4 @@ Installation instruction for the Unreal Engine plugin here
 5. Download the assets you'd like into the game engine
 
 6. Remove morphs you no longer need
+
