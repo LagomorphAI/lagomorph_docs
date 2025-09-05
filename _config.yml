@@ -1,9 +1,13 @@
 title: Lagomorph AI Documentation
 description: Documentation for the Lagomorph AI 3D generator tool
 theme: just-the-docs
+logo: "/images/logo-cropped.png"
+favicon_ico: "/images/favicon.ico"
 
 url: https://lagomorphai.github.io/lagomorph_docs
 
 aux_links:
-  Main Website: https://lagomorph.ai/
-  Discord: https://discord.com/channels/1117841691408334898/1119312114742476860
+  Back to Homepage: https://lagomorph.ai/
+  Discord: https://discord.gg/RsNwwy3WCc
+
+color_scheme: lagomorph
