@@ -1,6 +1,7 @@
 ---
 title: Features
 layout: page
+nav_order: 3
 ---
 
 # Features
@@ -9,7 +10,7 @@ layout: page
 ### Image to 3D
 Users can provide an image to the tool to convert into a 3D model. Common image formats such as (png, jpg/jpeg, bmp, svg etc are supported)
 
-### Text to 3D (*experimental*)
+### Text to 3D (_experimental_)
 User can provide a text prompt to the tool to generate a 3D model.
 **Note**: This feature is still in an experimental phase and work is being done to significantly improve the quality of 3D models generated in this mode
 
