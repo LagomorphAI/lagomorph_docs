@@ -1,3 +1,8 @@
+---
+title: Unreal Engine
+layout: page
+---
+
 # Lagomorph AI Plugin for Unreal Engine
 
 **AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
