@@ -29,35 +29,14 @@ Generate high-quality materials and textures automatically.
 **Game-Ready Output**
 Optimized for real-time rendering with clean topology and efficient UV layouts.
 
----
-
-## Supported Platforms
-
-Lagomorph AI is currently available for the following game engines:
-
-### Unreal Engine
-- **Status:** Available Now
-- **Supported Versions:** Unreal Engine 5.0 or higher
-- **Installation:** Plugin available via GitHub
-- **Download:** [Unreal Engine Plugin](https://github.com/LagomorphAI/unreal-engine-plugin-release)
-
-### Unity
-- **Status:** Coming Soon
-- **Expected Release:** TBA
-- **Features:** Full feature parity with Unreal Engine plugin
-
-> **Note:** Additional platform integrations (Godot, Blender) are planned for future releases. Let us know which platforms you'd like to see supported next!
-
----
-
 ## Installation
 
 ### Prerequisites
 
-- Unreal Engine 5.0 or higher
+- Unreal Engine 5.6 or higher
 - Active internet connection for AI processing
 - Minimum 8GB RAM (recommended)
-- Windows, macOS, or Linux operating system
+- Windows operating system
 
 ### Installation Steps
 
