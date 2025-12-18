@@ -1,19 +1,19 @@
 ---
-title: Unreal Engine
+title: Unity
 layout: page
 ---
 
-# Lagomorph AI Plugin for Unreal Engine
+# Lagomorph AI Plugin for Unity
 
-**AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
+**AI-driven 3D art generation directly in your Unity workflow. Create game-ready models from text and images in minutes.**
 
-[Download Plugin](https://github.com/LagomorphAI/unreal-engine-plugin-release) | [Join Community](https://discord.gg/RsNwwy3WCc)
+[Download Plugin](https://github.com/LagomorphAI/unity-engine-plugin-release) | [Join Community](https://discord.gg/RsNwwy3WCc)
 
 ---
 
 ## Overview
 
-Lagomorph AI empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unreal Engine using natural language or reference images, dramatically reducing iteration time from concept to implementation.
+Lagomorph AI empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unity using natural language or reference images, dramatically reducing iteration time from concept to implementation.
 
 ### Key Features
 
@@ -33,32 +33,37 @@ Optimized for real-time rendering with clean topology and efficient UV layouts.
 
 ### Prerequisites
 
-- Unreal Engine 5.6 or higher
+- Unity 6.x or higher
 - Active internet connection for AI processing
 - Minimum 8GB RAM (recommended)
 - Windows operating system
 
 ### Installation Steps
 
-#### Step 1: Install the Plugin
+#### Step 1: Download the Plugin
 
-Visit the [Fab store](https://github.com/LagomorphAI/unreal-engine-plugin-release)
+Visit the [Fab store](https://github.com/LagomorphAI/unity-engine-plugin-release)
 
-#### Step 2: Enable the Plugin
-![](enable_plugin.png)
-    
-#### Step 3: Restart Unreal Engine
+#### Step 2: Import the Plugin
+![](unity_import.png)
 
-Close and restart Unreal Engine. The plugin will be automatically detected and loaded when the engine starts.
+![](unity_asset.png)    
+
+#### Step 3: Restart Unity
+
+Close and restart Unity. The plugin will be automatically detected and loaded when the engine starts.
 
 #### Step 4: Launch the Plugin
 
-Open the **Tools** menu in Unreal Engine and select **Lagomorph Plugin** to launch the interface.
-![](launch_plugin.png)
+Open the **Windows** menu in Unity and select **Lagomorph Plugin** to launch the interface.
+![](lagomorph_window.png)
+
+This will launch the Lagomorph Editor Window
+![](lagomorph_unity.png)
 
 > ✅ **Installation Complete**
 > 
-> You're now ready to start generating 3D models with Lagomorph AI. The plugin interface will appear as a dockable window in your Unreal Engine editor.
+> You're now ready to start generating 3D models with Lagomorph AI. The plugin interface will appear as a dockable window in your Unity editor.
 
 ---
 
@@ -192,7 +197,7 @@ If you're satisfied with the mesh, you can request automatic material and textur
 
 ### 5. Import to Project
 
-Import your chosen model directly into your Unreal Engine project. The asset will appear in your Content Browser, ready to be placed in your scenes.
+Import your chosen model directly into your Unity project. The asset will appear in your Content Browser, ready to be placed in your scenes.
 
 ### 6. Iterate and Refine
 
@@ -279,7 +284,7 @@ Here are some examples of models generated with Lagomorph AI to inspire your own
 ### Plugin Not Appearing in Tools Menu
 
 - Verify the plugin is installed in the correct Plugins folder
-- Ensure you've restarted Unreal Engine after installation
+- Ensure you've restarted Unity after installation
 - Check the Plugins window (Edit → Plugins) to confirm Lagomorph is enabled
 
 ### Generation Taking Too Long
@@ -299,7 +304,7 @@ Here are some examples of models generated with Lagomorph AI to inspire your own
 
 - Ensure you have write permissions in your Content folder
 - Verify sufficient disk space for asset import
-- Check Unreal Engine's Output Log for specific error messages
+- Check Unity's Output Log for specific error messages
 
 ---
 
