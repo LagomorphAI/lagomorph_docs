@@ -6,6 +6,12 @@ nav_order: 3.5
 
 # Usage Limits
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 Lagomorph currently offers a free Beta that gives you access to all features with monthly usage limits. This page explains what those limits are and how to make the most of them.
 
 ---

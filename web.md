@@ -6,6 +6,12 @@ nav_order: 5
 
 # Lagomorph Web
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 **Morph your ideas into 3D right from your browser. No plugins, no installs, no account required.**
 
 [Open Lagomorph Web](https://app.lagomorph.ai){: .btn .btn-primary } [Join Community](https://discord.gg/RsNwwy3WCc){: .btn }

@@ -6,6 +6,12 @@ nav_order: 6
 
 # Lagomorph AI Plugin for Unity
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 **AI-driven 3D art generation directly in your Unity workflow. Create game-ready models from text and images in minutes.**
 
 [Download Plugin](https://github.com/LagomorphAI/unity-engine-plugin-release) | [Join Community](https://discord.gg/RsNwwy3WCc)

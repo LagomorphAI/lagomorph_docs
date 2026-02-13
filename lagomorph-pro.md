@@ -6,6 +6,12 @@ nav_order: 4
 
 # Lagomorph Pro
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 **Coming Soon: Enhanced features for professional game development workflows**
 
 ---

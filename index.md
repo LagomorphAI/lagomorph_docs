@@ -6,6 +6,12 @@ nav_order: 1
 
 # Overview
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 Lagomorph turns images and text prompts into game-ready 3D models, ready to be imported into Unity, Unreal, Blender, and others.
 
 ## Who Uses Lagomorph?

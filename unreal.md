@@ -6,6 +6,12 @@ nav_order: 7
 
 # Lagomorph AI Plugin for Unreal Engine
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 **AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
 
 [Download Plugin](https://github.com/LagomorphAI/unreal-engine-plugin-release) | [Join Community](https://discord.gg/RsNwwy3WCc)

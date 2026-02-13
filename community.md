@@ -6,6 +6,12 @@ nav_order: 10
 
 # Support & Community
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 ## Get Help
 
 ### Email Support

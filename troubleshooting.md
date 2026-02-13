@@ -6,6 +6,12 @@ nav_order: 8
 
 # Troubleshooting & FAQs
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 Having trouble? Check below for common questions and solutions. If you can't find what you're looking for, reach out to us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai) or on [Discord](https://discord.gg/RsNwwy3WCc).
 
 ---

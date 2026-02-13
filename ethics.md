@@ -6,6 +6,12 @@ nav_order: 9
 
 # Best Practices & Ethics
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 ## Our Philosophy
 
 Lagomorph AI exists to empower game developers and artists, not to replace them.

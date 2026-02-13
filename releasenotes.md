@@ -6,6 +6,12 @@ nav_order: 11
 
 # Release Notes & Roadmap
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 ## Roadmap
 
 Here's what we're working on. Priorities may shift based on community feedback. If there's something you'd love to see, let us know on [Discord](https://discord.gg/RsNwwy3WCc) or at [hello@lagomorph.ai](mailto:hello@lagomorph.ai).

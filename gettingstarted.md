@@ -7,6 +7,12 @@ has_children: true
 
 # Getting Started
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 ---
 
 ## Choose Your Platform

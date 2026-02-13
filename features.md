@@ -6,6 +6,12 @@ nav_order: 3
 
 # Features
 
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
+
 This page applies across all Lagomorph platforms: [Lagomorph Web](web), the [Unity Plugin](unity), and the [Unreal Engine Plugin](unreal).
 
 ---
