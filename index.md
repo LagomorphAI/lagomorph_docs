@@ -12,7 +12,7 @@ Lagomorph turns images and text prompts into game-ready 3D models, ready to be i
 
 ### Game Artists
 
-Skip the tedious parts of 3D modeling and focus on what matters: **creativity**. Generate base models from reference images or prompts, then add your artistic touches in your preferred 3D editor. Use Lagomorph to accelerate your asset pipeline and spend more time on creative decisions.
+Skip the tedious parts of 3D modeling and focus on what matters: **creativity**. Generate models from reference images or prompts, then add your artistic touches in your preferred 3D editor. Use Lagomorph to accelerate your asset pipeline and spend more time on creative decisions.
 
 ### Game Developers
 

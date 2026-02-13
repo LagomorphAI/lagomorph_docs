@@ -111,106 +111,35 @@ For detailed prompt engineering tips, example prompts, and best practices, see t
 
 Upload reference images or concept art to guide Lagomorph's generation process. This feature is perfect when you have a visual reference but need a 3D implementation.
 
-### Supported Image Formats
+In Unity, upload your reference image through the Lagomorph Plugin interface and click "Morph!" to begin generation.
 
-- JPEG (.jpg, .jpeg)
-- PNG (.png)
-- TGA (.tga)
-- BMP (.bmp)
-
-### Best Practices for Reference Images
-
-- Use high-resolution images (minimum 1024x1024 recommended)
-- Ensure good lighting and clear details
-- Provide multiple angles when possible
-- Avoid images with complex backgrounds
-
-> ⚠️ **Image Quality Matters**
->
-> The quality and clarity of your reference images directly impact the quality of generated models. Blurry or low-resolution images may produce less detailed results.
+For complete guidance on supported image formats, best practices for reference images, and tips for great results, see the **[Image to 3D](features#image-to-3d)** section in Features.
 
 ---
 
 ## Materials & Textures
 
-Lagomorph AI can automatically generate materials and textures for your models, or you can apply textures to existing geometry.
+After your model is generated in Unity, you can request automatic material and texture generation through the Lagomorph Plugin interface.
 
-### Automatic Texture Generation
-
-After your model is generated, you have the option to request automatic texture generation. Lagomorph will analyze the geometry and create appropriate materials based on your original prompt or reference images.
-
-### Texture Options
-
-- **Generate with Model:** Textures are created simultaneously with geometry
-- **Generate After Review:** Review the mesh first, then request textures
-- **Skip Textures:** Import geometry only for manual texturing
-
-### Material Properties
-
-Generated materials include:
-
-- Base Color / Albedo maps
-- Normal maps for surface detail
-- Roughness maps
-- Metallic maps (when appropriate)
+For more information about how texture generation works, see the **[Materials & Textures](features#materials--textures)** section in Features.
 
 ---
 
-## Complete Workflow
+## Workflow
 
-Here's a comprehensive overview of the typical Lagomorph AI workflow from concept to implementation.
-
-### 1. Define Your Requirements
-
-Start by clearly defining what you need. Write a detailed text prompt or gather reference images. Consider the style, materials, and level of detail required for your project.
-
-### 2. Generate the Model
-
-Input your prompt or upload reference images in the Lagomorph plugin interface. Click "Morph!" to begin the generation process. Lagomorph will process your request, which typically takes 2-5 minutes depending on complexity and server load.
-
-### 3. Review Results
-
-Once generation is complete, review the results. Lagomorph often generates multiple variations for you to choose from. Examine the geometry, proportions, and overall quality.
-
-### 4. Generate Materials (Optional)
-
-If you're satisfied with the mesh, you can request automatic material and texture generation. This adds realistic surface properties to your model.
-
-### 5. Import to Project
-
-Import your chosen model directly into your Unity project. The asset will appear in your Content Browser, ready to be placed in your scenes.
-
-### 6. Iterate and Refine
-
-If the result isn't quite right, try morphing again with adjusted prompts or different reference images. You can generate multiple variations to find the perfect fit for your game.
+For a complete 6-step workflow from concept to implementation, see the **[Complete Workflow](features#complete-workflow)** in Features. The Unity Plugin follows the same workflow, with the plugin interface handling model import automatically.
 
 ---
 
 ## Best Practices
 
-Maximize your results with these proven strategies for using Lagomorph AI effectively.
-
-### Prompt Engineering
-
-- Start with broad descriptions, then add specific details
-- Include material descriptions (wood, metal, stone, etc.)
-- Specify artistic style (realistic, cartoon, low-poly, etc.)
-- Mention scale or size when relevant
-- Use adjectives to convey mood and atmosphere
-
-### Iteration Strategy
-
-- Generate multiple variations by morphing the same prompt several times
-- Start with simpler objects before tackling complex assemblies
-- Use successful generations as reference for similar objects
-- Keep track of effective prompts for future use
-
-### Performance Optimization
+### Unity-Specific Tips
 
 - Queue multiple morphs at once to work in parallel
 - Continue other development tasks while waiting for results
-- Consider generating variations during breaks or overnight
 - Organize generated assets with clear naming conventions
+
+For detailed prompt engineering tips, iteration strategies, and performance optimization advice, see **[Prompt Engineering & Best Practices](features#prompt-engineering--best-practices)** in Features.
 
 ---
 
@@ -236,62 +165,23 @@ Create reference models for your art team. Use Lagomorph to explore proportions,
 
 ---
 
-## Example Gallery
-
-Here are some examples of models generated with Lagomorph AI to inspire your own creations:
-
-### Suit of Armour
-
-**Prompt:** "medieval plate armor with ornate engravings"
-
-### Chef Knife
-
-**Prompt:** "professional chef's knife with wooden handle"
-
-### Helicopter
-
-**Prompt:** "military attack helicopter with weapons systems"
-
-### Victorian Street Lamp
-
-**Prompt:** "ornate Victorian street lamp with gas light fixture"
-
-### Magic Staff
-
-**Prompt:** "fantasy wizard staff with glowing crystal top"
-
-### Warship
-
-**Prompt:** "detailed naval warship with gun turrets"
-
----
-
 ## Troubleshooting
 
-### Plugin Not Appearing in Tools Menu
+### Plugin Not Appearing in Windows Menu
 
 - Verify the plugin is installed in the correct Plugins folder
 - Ensure you've restarted Unity after installation
 - Check the Plugins window (Edit → Plugins) to confirm Lagomorph is enabled
 
-### Generation Taking Too Long
-
-- Check your internet connection
-- Server load may be high during peak hours - try again later
-- Complex prompts naturally take longer to process
-
-### Unexpected Results
-
-- Refine your prompt to be more specific
-- Try adding style keywords (realistic, stylized, low-poly, etc.)
-- Use reference images in addition to text prompts
-- Generate multiple variations to see different interpretations
-
 ### Import Errors
 
-- Ensure you have write permissions in your Content folder
+- Ensure you have write permissions in your Assets folder
 - Verify sufficient disk space for asset import
-- Check Unity's Output Log for specific error messages
+- Check Unity's Console for specific error messages
+
+### General Issues
+
+For troubleshooting unexpected results, generation timing issues, and prompt refinement strategies, see the **[Troubleshooting](features#troubleshooting)** section in Features.
 
 ---
 

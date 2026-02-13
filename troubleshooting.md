@@ -19,7 +19,7 @@ Yes. See [Usage Limits](usage-limits) for details on monthly morph limits and ho
 Image to 3D uses our standard-quality generation pipeline and produces the most reliable results. Text to 3D is still in preview and uses a lighter method while we gather feedback and improve it. Quality improvements to Text to 3D are actively in development.
 
 **Why are my models gray?**
-By default, generated meshes don't have materials added. Materials can be added as a post-generation step. Look for the material generation option after your mesh is ready. See [Material Generation](features#material-generation) for details.
+By default, generated meshes don't have materials added. Materials can be added as a post-generation step. Look for the material generation option after your mesh is ready. See [Materials & Textures](features#materials--textures) for details.
 
 **Can I use generated assets in commercial projects?**
 Yes. Assets generated with Lagomorph are owned by you and can be used in commercial projects. See [Best Practices & Ethics](ethics) for full details.
@@ -33,20 +33,12 @@ Yes. Assets generated with Lagomorph are owned by you and can be used in commerc
 **Generation seems stuck or spinner won't stop**
 
 - Refresh the page, as your morph continues processing server-side and won't be lost
-- If the issue persists, try a different browser (we recommend Chrome, Firefox, or Edge)
 - Check your internet connection
 
 **Download not working**
 
 - Check your browser's download settings and pop-up blocker
-- Try right-clicking the download button and selecting "Save As"
 - Ensure you have sufficient disk space
-
-**Page not loading properly**
-
-- Clear your browser cache and reload
-- Try a different browser
-- Disable browser extensions that might interfere (ad blockers, privacy extensions)
 
 ### Unity Plugin
 
@@ -80,7 +72,7 @@ Yes. Assets generated with Lagomorph are owned by you and can be used in commerc
 
 ## Performance Tips
 
-- Unless you specifically need a high-poly mesh, enable the **Simplify** option. It produces lighter, game-ready models
+- Unless you specifically need a high-fidelity mesh, enable the **Simplify** option. It produces lighter, game-ready models
 - Our current focus is on generating inorganic game elements. You'll get the best quality results with props, weapons, furniture, architecture, and vehicles
 - Use **Image to 3D** when possible: it produces more reliable results than Text to 3D in its current preview state
 - Queue multiple morphs and continue working on other tasks while they process

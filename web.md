@@ -55,27 +55,9 @@ Upload a reference image and Lagomorph will morph it into a 3D model. This is th
 5. Wait for processing (typically 2–5 minutes)
 6. Review your result and download
 
-### Supported Image Formats
-
-- PNG (.png)
-- JPEG (.jpg, .jpeg)
-- BMP (.bmp)
-- SVG (.svg)
-
-### Tips for Best Results
-
-- **Use high-resolution images**: minimum 1024x1024 recommended
-- **Keep backgrounds clean**: simple or transparent backgrounds produce better results
-- **Good lighting matters**: well-lit subjects with clear details translate better to 3D
-- **Single objects work best**: one clear subject per image gives Lagomorph the best chance
-
-For more tips on getting great results, see the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide.
+For complete guidance on supported image formats, best practices for reference images, and tips for great results, see the **[Image to 3D](features#image-to-3d)** section in Features.
 
 <!-- TODO: screenshot webapp_image_to_3d.png — image-to-3D generation interface -->
-
-> **Image Quality Matters**
->
-> The quality and clarity of your reference images directly impact the quality of generated models. Blurry or low-resolution images may produce less detailed results.
 
 ---
 
@@ -102,40 +84,16 @@ For detailed tips on writing effective prompts, see the [Prompt Engineering & Be
 
 ---
 
-## AI Parameters
-
-### Simplify
-
-The **Simplify** option automatically reduces the number of faces on your generated model. This makes the mesh lighter and more suitable for real-time rendering in games.
-
-- **When to enable:** Most of the time. Game-ready assets benefit from cleaner, lighter meshes.
-- **When to disable:** If you need maximum detail and plan to handle optimization yourself.
-
----
-
 ## Materials & Textures
 
 After your model is generated, you can request automatic material and texture generation. Lagomorph will analyze the geometry and create appropriate surface materials based on your original prompt or reference image.
-
-### Generated Material Properties
-
-Materials include:
-
-- **Base Color / Albedo**: the surface color and pattern
-- **Normal Map**: surface detail and bumps without extra geometry
-- **Roughness Map**: how shiny or matte different parts of the surface are
-- **Metallic Map**: which parts of the surface are metallic (when appropriate)
-
-### Workflow
 
 1. Generate your 3D model first
 2. Review the mesh to make sure you're happy with the shape
 3. Request material generation as a post-processing step
 4. Download the model with textures included
 
-> **Why are my models gray?**
->
-> By default, generated meshes don't include materials. Materials are added as a separate post-generation step. This lets you review the mesh shape before committing to texture generation.
+For more information about materials and textures, see the **[Materials & Textures](features#materials--textures)** section in Features.
 
 ---
 
@@ -166,13 +124,13 @@ After downloading from Lagomorph Web, you can import the files into your engine 
 
 ## Best Practices
 
-### Iteration Workflow
-
-- **Start simple**: morph a "wooden barrel" before attempting a "baroque cathedral with flying buttresses"
 - **Use Image to 3D when you can**: it's the more mature mode and gives more predictable results
 - **Enable Simplify** for game-ready meshes unless you specifically need high-poly output
 - **Request materials** to see how your model will actually look in-game
-- **Morph multiple times**: try the same prompt or image several times to get variations
+
+For a complete 6-step workflow from concept to implementation, see the **[Complete Workflow](features#complete-workflow)** in Features.
+
+For iteration strategies, prompt engineering tips, and performance optimization advice, see **[Prompt Engineering & Best Practices](features#prompt-engineering--best-practices)** in Features.
 
 For information about monthly morph limits and tips to maximize your usage, see [Usage Limits](usage-limits).
 
@@ -196,11 +154,9 @@ If the progress indicator isn't moving:
 - Try right-clicking the download button and selecting "Save As"
 - Ensure you have sufficient disk space
 
-### Unexpected Results
+### General Issues
 
-- Try a clearer or higher-resolution reference image
-- Simplify your text prompt. Shorter, more specific descriptions work better
-- See the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide for detailed tips
+For troubleshooting unexpected results, generation timing issues, and prompt refinement strategies, see the **[Troubleshooting](features#troubleshooting)** section in Features.
 
 For any other issues, reach out to us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai) or on [Discord](https://discord.gg/RsNwwy3WCc).
 

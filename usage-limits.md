@@ -10,7 +10,7 @@ Lagomorph currently offers a free Beta that gives you access to all features wit
 
 ---
 
-## Current Free Tier
+## Current Free Beta
 
 ### Morph Generation Limits
 
@@ -61,21 +61,9 @@ To maximize the value of your monthly morphs:
 - Save successful prompts and reference images for reuse
 - Review the mesh before requesting texture generation
 
----
+### Track Usage
 
-## FAQs
-
-**Do failed generations count against my limit?**
-No. Only successful generations count toward your monthly limit.
-
-**Are limits shared across platforms?**
-Yes. Your 50 morphs per month apply across Lagomorph Web, Unity plugin, and Unreal Engine plugin combined.
-
-**When do my limits reset?**
-Your limits reset on the 1st of each calendar month.
-
-**Can I track my usage?**
-Currently, usage tracking is not available in the free tier. This feature will be available with [Lagomorph Pro](lagomorph-pro).
+- Current usage and limits are easily viewable in all platforms
 
 ---
 
