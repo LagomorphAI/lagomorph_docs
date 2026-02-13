@@ -18,11 +18,11 @@ Here's what we're working on. Priorities may shift based on community feedback. 
 
 ### In Progress
 
-- **Improved Text to 3D quality** - Upgrading from preview to standard quality
+- **Improved Text to 3D quality** - Upgrading from preview to Morph Core quality
 - **Blender plugin** - Professional 3D modeling workflow integration
 - **Godot plugin** - Open-source game engine support
 - **[Lagomorph Pro](lagomorph-pro)** - Targeted for Q2 2026, includes:
-  - Pro Quality morphs for both image and text morphing
+  - Morph Pro quality for both image and text morphing
   - Higher monthly morph limits
   - User accounts and history management
   - Priority processing for faster morph times
@@ -57,7 +57,7 @@ The initial public release of Lagomorph AI, available across web and game engine
 
 **Generation Features:**
 
-- **Image to 3D** - Convert reference images to 3D models (standard quality)
+- **Image to 3D** - Convert reference images to 3D models (Morph Core quality)
   - Supported formats: JPEG, PNG, SVG, BMP
   - Best results with single objects and clean backgrounds
 - **Text to 3D** - Generate from text descriptions (preview quality - actively improving)

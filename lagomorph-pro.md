@@ -28,7 +28,7 @@ nav_order: 4
 
 ## Planned Features
 
-- **Pro Quality Morphs** for both image and text morphing
+- **Morph Pro Quality** for both image and text morphing
 - **Higher monthly morph limits** for users who need to generate more assets
 - **API access** for custom workflows and automation
 - **User Accounts & History** to manage your morphed assets in one place

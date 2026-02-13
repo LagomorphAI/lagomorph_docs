@@ -22,7 +22,7 @@ Having trouble? Check below for common questions and solutions. If you can't fin
 Yes. See [Usage Limits](usage-limits) for details on monthly morph limits and how they work.
 
 **Why is there a quality difference between morph methods?**
-Image to 3D uses our standard-quality generation pipeline and produces the most reliable results. Text to 3D is still in preview and uses a lighter method while we gather feedback and improve it. Quality improvements to Text to 3D are actively in development.
+Image to 3D uses our Morph Core generation pipeline and produces the most reliable results. Text to 3D is still in preview and uses a lighter method while we gather feedback and improve it. Quality improvements to Text to 3D are actively in development.
 
 **Why are my models gray?**
 By default, generated meshes don't have materials added. Materials can be added as a post-generation step. Look for the material generation option after your mesh is ready. See [Materials & Textures](features#materials--textures) for details.
