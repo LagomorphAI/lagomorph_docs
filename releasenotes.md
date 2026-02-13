@@ -7,10 +7,11 @@ nav_order: 11
 # Release Notes & Roadmap
 
 ## Table of Contents
+
 {: .no_toc }
 
 - TOC
-{:toc}
+  {:toc}
 
 ## Roadmap
 
@@ -52,7 +53,7 @@ The initial public release of Lagomorph AI, available across web and game engine
 
 - Image to 3D generation (standard quality)
 - Text to 3D generation (preview)
-- Automatic material and texture generation (Base Color, Normal, Roughness, Metallic maps)
+- Automatic material and texture generation
 - Simplify mesh post-processing
 - Export as OBJ and FBX (Lagomorph Web supports both; plugins support their engine's native format)
 - 50 morphs per month
