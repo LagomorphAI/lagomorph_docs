@@ -1,6 +1,7 @@
 ---
 title: Unity
 layout: page
+nav_order: 6
 ---
 
 # Lagomorph AI Plugin for Unity
@@ -29,6 +30,14 @@ Generate high-quality materials and textures automatically.
 **Game-Ready Output**
 Optimized for real-time rendering with clean topology and efficient UV layouts.
 
+---
+
+> **Beta Status**
+>
+> The Lagomorph Unity Plugin is currently in Beta. We're actively improving it based on community feedback. If you run into issues or have suggestions, reach out on [Discord](https://discord.gg/RsNwwy3WCc) or email us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai).
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -45,9 +54,10 @@ Optimized for real-time rendering with clean topology and efficient UV layouts.
 Visit the [Fab store](https://github.com/LagomorphAI/unity-engine-plugin-release)
 
 #### Step 2: Import the Plugin
-![](unity_import.png)
 
-![](unity_asset.png)    
+![Unity package import dialog](/images/unity_import.png)
+
+![Unity asset window](/images/unity_asset.png)
 
 #### Step 3: Restart Unity
 
@@ -56,13 +66,13 @@ Close and restart Unity. The plugin will be automatically detected and loaded wh
 #### Step 4: Launch the Plugin
 
 Open the **Windows** menu in Unity and select **Lagomorph Plugin** to launch the interface.
-![](lagomorph_window.png)
+![Lagomorph option in Windows menu](/images/lagomorph_window.png)
 
 This will launch the Lagomorph Editor Window
-![](lagomorph_unity.png)
+![Lagomorph plugin interface in Unity](/images/lagomorph_unity.png)
 
 > ✅ **Installation Complete**
-> 
+>
 > You're now ready to start generating 3D models with Lagomorph AI. The plugin interface will appear as a dockable window in your Unity editor.
 
 ---
@@ -73,14 +83,14 @@ Let's create your first AI-generated 3D model. This quick start will walk you th
 
 ### Creating Your First Model
 
-1. Open the Lagomorph Plugin from the Tools menu
+1. Open the Lagomorph Plugin from the Windows menu
 2. Enter a description of your desired model (e.g., "a medieval stone fountain")
 3. Click the "Morph!" button to begin generation
-4. Wait for the AI to process (typically 2-5 minutes)
+4. Wait for Lagomorph to process (typically 2-5 minutes)
 5. Review the generated results and import to your scene
 
 > ⏱️ **Processing Time**
-> 
+>
 > Generation time varies based on complexity and server load. Feel free to continue working on other aspects of your project while waiting. You'll receive a notification when your model is ready.
 
 ---
@@ -91,44 +101,15 @@ Transform natural language descriptions into fully realized 3D models. This feat
 
 ### Writing Effective Prompts
 
-The quality of your generated models depends heavily on the clarity and specificity of your prompts.
+The quality of your generated models depends heavily on the clarity and specificity of your prompts. Be specific, include style direction, and specify materials for the best results.
 
-#### Be Specific
-
-Instead of: "a sword"
-
-Try: "a medieval longsword with ornate crossguard and leather-wrapped handle"
-
-#### Include Style Direction
-
-```
-"a cartoon-style submarine with rounded edges and bright colors"
-"a photorealistic vintage radio with brass dials and wooden cabinet"
-"a low-poly stylized tree suitable for mobile games"
-```
-
-#### Specify Materials
-
-```
-"a rusty iron gate with peeling paint"
-"a polished marble statue"
-"a wooden barrel with metal bands"
-```
-
-### Example Prompts
-
-| Category | Example Prompt | Use Case |
-|----------|---------------|----------|
-| Props | "a Victorian street lamp with ornate metalwork" | Environment decoration |
-| Weapons | "a futuristic energy rifle with glowing blue accents" | Player equipment |
-| Vehicles | "a military helicopter with camouflage paint" | Transportation |
-| Architecture | "a medieval stone well with wooden bucket" | Level design |
+For detailed prompt engineering tips, example prompts, and best practices, see the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide.
 
 ---
 
 ## Image to 3D Conversion
 
-Upload reference images or concept art to guide the AI's generation process. This feature is perfect when you have a visual reference but need a 3D implementation.
+Upload reference images or concept art to guide Lagomorph's generation process. This feature is perfect when you have a visual reference but need a 3D implementation.
 
 ### Supported Image Formats
 
@@ -145,7 +126,7 @@ Upload reference images or concept art to guide the AI's generation process. Thi
 - Avoid images with complex backgrounds
 
 > ⚠️ **Image Quality Matters**
-> 
+>
 > The quality and clarity of your reference images directly impact the quality of generated models. Blurry or low-resolution images may produce less detailed results.
 
 ---
@@ -156,7 +137,7 @@ Lagomorph AI can automatically generate materials and textures for your models, 
 
 ### Automatic Texture Generation
 
-After your model is generated, you have the option to request automatic texture generation. The AI will analyze the geometry and create appropriate materials based on your original prompt or reference images.
+After your model is generated, you have the option to request automatic texture generation. Lagomorph will analyze the geometry and create appropriate materials based on your original prompt or reference images.
 
 ### Texture Options
 
@@ -185,7 +166,7 @@ Start by clearly defining what you need. Write a detailed text prompt or gather 
 
 ### 2. Generate the Model
 
-Input your prompt or upload reference images in the Lagomorph plugin interface. Click "Morph!" to begin the generation process. The AI will process your request, which typically takes 2-5 minutes depending on complexity and server load.
+Input your prompt or upload reference images in the Lagomorph plugin interface. Click "Morph!" to begin the generation process. Lagomorph will process your request, which typically takes 2-5 minutes depending on complexity and server load.
 
 ### 3. Review Results
 
@@ -236,7 +217,7 @@ Maximize your results with these proven strategies for using Lagomorph AI effect
 ## Tips & Tricks
 
 > 💡 **Pro Tip: Batch Generation**
-> 
+>
 > Generate multiple variations of the same object simultaneously. This gives you more options to choose from and helps identify the most effective prompts.
 
 ### Common Workflows
@@ -260,21 +241,27 @@ Create reference models for your art team. Use Lagomorph to explore proportions,
 Here are some examples of models generated with Lagomorph AI to inspire your own creations:
 
 ### Suit of Armour
+
 **Prompt:** "medieval plate armor with ornate engravings"
 
 ### Chef Knife
+
 **Prompt:** "professional chef's knife with wooden handle"
 
 ### Helicopter
+
 **Prompt:** "military attack helicopter with weapons systems"
 
 ### Victorian Street Lamp
+
 **Prompt:** "ornate Victorian street lamp with gas light fixture"
 
 ### Magic Staff
+
 **Prompt:** "fantasy wizard staff with glowing crystal top"
 
 ### Warship
+
 **Prompt:** "detailed naval warship with gun turrets"
 
 ---
@@ -317,13 +304,9 @@ Need help or have questions? We're here to assist!
 - **Documentation:** [https://docs.lagomorph.ai](https://docs.lagomorph.ai)
 
 > **Missing your favourite tool?**
-> 
+>
 > We want to make sure you can run Lagomorph on all your favourite platforms. Let us know where we should go next by emailing us or joining our Discord community!
 
 ---
 
-## Additional Resources
-
----
-
-*© Lagomorph AI 2025 • All rights reserved*
+_© Lagomorph AI 2025–2026 • All rights reserved_

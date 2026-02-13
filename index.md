@@ -6,24 +6,45 @@ nav_order: 1
 
 # Overview
 
-The Lagomorph AI 3D generator tool is a simple user-friendly tool for generating and manipulating 3D models for use in game development.
+Lagomorph turns images and text prompts into game-ready 3D models, ready to be imported into Unity, Unreal, Blender, and others.
 
-## Core Use Cases
+## Who Uses Lagomorph?
 
-### Artists
+### Game Artists
 
-For game artists, the tool allows you offload a lot of the tedious parts of generating 3D models for games so you can focus on what matters most, **creativity**. Use the tool to generate 3D models from an image or text description and optimize the models for game development. You can then add your creative adjustments to the models of your choosing within your preferred 3D model editor
+Skip the tedious parts of 3D modeling and focus on what matters: **creativity**. Generate base models from reference images or prompts, then add your artistic touches in your preferred 3D editor. Use Lagomorph to accelerate your asset pipeline and spend more time on creative decisions.
 
-### Game developers
+### Game Developers
 
-For game developers, the tool allows you to get quick access to 3D models to use in your games, giving you more time to focus on other aspects of the game development pipeline. This allows you to turbo-boost your overall game development process, especially prototyping and content generation
+Turbo-boost prototyping and content generation. Get placeholder assets instantly, test gameplay concepts faster, and focus on what makes your game unique. Whether you're solo developing or leading a team, Lagomorph gives you production-quality 3D assets without the production timeline.
 
-## Supported Platforms
+## Get Started on Your Platform
 
-### Unity
+### Web Browser (Fastest Way to Start)
 
-Lagomorph AI has a plugin to use with Unity
+Lagomorph Web is currently available in Beta. Visit [app.lagomorph.ai](https://app.lagomorph.ai), to start morphing in seconds.
 
-### Unreal Engine
+[Launch Lagomorph Web](web){: .btn .btn-primary }
 
-Lagomorph AI has a plugin to use with Unreal Engine
+### Unity Plugin
+
+Generate 3D assets directly in the Unity Editor. Upload images or enter prompts without leaving your workflow.
+
+[Get Unity Plugin](unity){: .btn }
+
+### Unreal Engine Plugin
+
+Generate 3D assets directly in the Unreal Engine. Upload images or enter prompts without leaving your workflow.
+
+[Get Unreal Plugin](unreal){: .btn }
+
+### Coming Soon
+
+- **Blender** plugin in development
+- **Godot** plugin in development
+
+Have any feedback? [Join our Discord](https://discord.gg/RsNwwy3WCc)
+
+---
+
+_© Lagomorph AI 2025–2026 • All rights reserved_
