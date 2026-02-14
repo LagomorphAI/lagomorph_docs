@@ -11,7 +11,7 @@ nav_order: 7
 {: .no_toc }
 
 - TOC
-  {:toc}
+{:toc}
 
 **AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
 
