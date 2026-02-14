@@ -1,9 +1,16 @@
 ---
 title: Unreal Engine
 layout: page
+nav_order: 7
 ---
 
 # Lagomorph AI Plugin for Unreal Engine
+
+## Table of Contents
+{: .no_toc }
+
+- TOC
+{:toc}
 
 **AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
 
@@ -29,6 +36,14 @@ Generate high-quality materials and textures automatically.
 **Game-Ready Output**
 Optimized for real-time rendering with clean topology and efficient UV layouts.
 
+---
+
+> **Beta Status**
+>
+> The Lagomorph Unreal Engine Plugin is currently in Beta. We're actively improving it based on community feedback. If you run into issues or have suggestions, reach out on [Discord](https://discord.gg/RsNwwy3WCc) or email us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai).
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -45,8 +60,9 @@ Optimized for real-time rendering with clean topology and efficient UV layouts.
 Visit the [Fab store](https://github.com/LagomorphAI/unreal-engine-plugin-release)
 
 #### Step 2: Enable the Plugin
-![](enable_plugin.png)
-    
+
+![Enabling Lagomorph plugin in Unreal Engine](/images/enable_plugin.png)
+
 #### Step 3: Restart Unreal Engine
 
 Close and restart Unreal Engine. The plugin will be automatically detected and loaded when the engine starts.
@@ -54,10 +70,10 @@ Close and restart Unreal Engine. The plugin will be automatically detected and l
 #### Step 4: Launch the Plugin
 
 Open the **Tools** menu in Unreal Engine and select **Lagomorph Plugin** to launch the interface.
-![](launch_plugin.png)
+![Lagomorph option in Tools menu](/images/launch_plugin.png)
 
 > ✅ **Installation Complete**
-> 
+>
 > You're now ready to start generating 3D models with Lagomorph AI. The plugin interface will appear as a dockable window in your Unreal Engine editor.
 
 ---
@@ -71,11 +87,11 @@ Let's create your first AI-generated 3D model. This quick start will walk you th
 1. Open the Lagomorph Plugin from the Tools menu
 2. Enter a description of your desired model (e.g., "a medieval stone fountain")
 3. Click the "Morph!" button to begin generation
-4. Wait for the AI to process (typically 2-5 minutes)
+4. Wait for Lagomorph to process (typically 2-5 minutes)
 5. Review the generated results and import to your scene
 
 > ⏱️ **Processing Time**
-> 
+>
 > Generation time varies based on complexity and server load. Feel free to continue working on other aspects of your project while waiting. You'll receive a notification when your model is ready.
 
 ---
@@ -86,152 +102,52 @@ Transform natural language descriptions into fully realized 3D models. This feat
 
 ### Writing Effective Prompts
 
-The quality of your generated models depends heavily on the clarity and specificity of your prompts.
+The quality of your generated models depends heavily on the clarity and specificity of your prompts. Be specific, include style direction, and specify materials for the best results.
 
-#### Be Specific
-
-Instead of: "a sword"
-
-Try: "a medieval longsword with ornate crossguard and leather-wrapped handle"
-
-#### Include Style Direction
-
-```
-"a cartoon-style submarine with rounded edges and bright colors"
-"a photorealistic vintage radio with brass dials and wooden cabinet"
-"a low-poly stylized tree suitable for mobile games"
-```
-
-#### Specify Materials
-
-```
-"a rusty iron gate with peeling paint"
-"a polished marble statue"
-"a wooden barrel with metal bands"
-```
-
-### Example Prompts
-
-| Category | Example Prompt | Use Case |
-|----------|---------------|----------|
-| Props | "a Victorian street lamp with ornate metalwork" | Environment decoration |
-| Weapons | "a futuristic energy rifle with glowing blue accents" | Player equipment |
-| Vehicles | "a military helicopter with camouflage paint" | Transportation |
-| Architecture | "a medieval stone well with wooden bucket" | Level design |
+For detailed prompt engineering tips, example prompts, and best practices, see the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide.
 
 ---
 
 ## Image to 3D Conversion
 
-Upload reference images or concept art to guide the AI's generation process. This feature is perfect when you have a visual reference but need a 3D implementation.
+Upload reference images or concept art to guide Lagomorph's generation process. This feature is perfect when you have a visual reference but need a 3D implementation.
 
-### Supported Image Formats
+In Unreal Engine, upload your reference image through the Lagomorph Plugin interface and click "Morph!" to begin generation.
 
-- JPEG (.jpg, .jpeg)
-- PNG (.png)
-- TGA (.tga)
-- BMP (.bmp)
-
-### Best Practices for Reference Images
-
-- Use high-resolution images (minimum 1024x1024 recommended)
-- Ensure good lighting and clear details
-- Provide multiple angles when possible
-- Avoid images with complex backgrounds
-
-> ⚠️ **Image Quality Matters**
-> 
-> The quality and clarity of your reference images directly impact the quality of generated models. Blurry or low-resolution images may produce less detailed results.
+For complete guidance on supported image formats, best practices for reference images, and tips for great results, see the **[Image to 3D](features#image-to-3d)** section in Features.
 
 ---
 
 ## Materials & Textures
 
-Lagomorph AI can automatically generate materials and textures for your models, or you can apply textures to existing geometry.
+After your model is generated in Unreal Engine, you can request automatic material and texture generation through the Lagomorph Plugin interface.
 
-### Automatic Texture Generation
-
-After your model is generated, you have the option to request automatic texture generation. The AI will analyze the geometry and create appropriate materials based on your original prompt or reference images.
-
-### Texture Options
-
-- **Generate with Model:** Textures are created simultaneously with geometry
-- **Generate After Review:** Review the mesh first, then request textures
-- **Skip Textures:** Import geometry only for manual texturing
-
-### Material Properties
-
-Generated materials include:
-
-- Base Color / Albedo maps
-- Normal maps for surface detail
-- Roughness maps
-- Metallic maps (when appropriate)
+For more information about how texture generation works, see the **[Materials & Textures](features#materials--textures)** section in Features.
 
 ---
 
-## Complete Workflow
+## Workflow
 
-Here's a comprehensive overview of the typical Lagomorph AI workflow from concept to implementation.
-
-### 1. Define Your Requirements
-
-Start by clearly defining what you need. Write a detailed text prompt or gather reference images. Consider the style, materials, and level of detail required for your project.
-
-### 2. Generate the Model
-
-Input your prompt or upload reference images in the Lagomorph plugin interface. Click "Morph!" to begin the generation process. The AI will process your request, which typically takes 2-5 minutes depending on complexity and server load.
-
-### 3. Review Results
-
-Once generation is complete, review the results. Lagomorph often generates multiple variations for you to choose from. Examine the geometry, proportions, and overall quality.
-
-### 4. Generate Materials (Optional)
-
-If you're satisfied with the mesh, you can request automatic material and texture generation. This adds realistic surface properties to your model.
-
-### 5. Import to Project
-
-Import your chosen model directly into your Unreal Engine project. The asset will appear in your Content Browser, ready to be placed in your scenes.
-
-### 6. Iterate and Refine
-
-If the result isn't quite right, try morphing again with adjusted prompts or different reference images. You can generate multiple variations to find the perfect fit for your game.
+For a complete 6-step workflow from concept to implementation, see the **[Complete Workflow](features#complete-workflow)** in Features. The Unreal Engine Plugin follows the same workflow, with the plugin interface handling model import automatically.
 
 ---
 
 ## Best Practices
 
-Maximize your results with these proven strategies for using Lagomorph AI effectively.
-
-### Prompt Engineering
-
-- Start with broad descriptions, then add specific details
-- Include material descriptions (wood, metal, stone, etc.)
-- Specify artistic style (realistic, cartoon, low-poly, etc.)
-- Mention scale or size when relevant
-- Use adjectives to convey mood and atmosphere
-
-### Iteration Strategy
-
-- Generate multiple variations by morphing the same prompt several times
-- Start with simpler objects before tackling complex assemblies
-- Use successful generations as reference for similar objects
-- Keep track of effective prompts for future use
-
-### Performance Optimization
+### Unreal Engine-Specific Tips
 
 - Queue multiple morphs at once to work in parallel
 - Continue other development tasks while waiting for results
-- Consider generating variations during breaks or overnight
 - Organize generated assets with clear naming conventions
+
+For detailed prompt engineering tips, iteration strategies, and performance optimization advice, see **[Prompt Engineering & Best Practices](features#prompt-engineering--best-practices)** in Features.
 
 ---
 
 ## Tips & Tricks
 
 > 💡 **Pro Tip: Batch Generation**
-> 
+>
 > Generate multiple variations of the same object simultaneously. This gives you more options to choose from and helps identify the most effective prompts.
 
 ### Common Workflows
@@ -250,30 +166,6 @@ Create reference models for your art team. Use Lagomorph to explore proportions,
 
 ---
 
-## Example Gallery
-
-Here are some examples of models generated with Lagomorph AI to inspire your own creations:
-
-### Suit of Armour
-**Prompt:** "medieval plate armor with ornate engravings"
-
-### Chef Knife
-**Prompt:** "professional chef's knife with wooden handle"
-
-### Helicopter
-**Prompt:** "military attack helicopter with weapons systems"
-
-### Victorian Street Lamp
-**Prompt:** "ornate Victorian street lamp with gas light fixture"
-
-### Magic Staff
-**Prompt:** "fantasy wizard staff with glowing crystal top"
-
-### Warship
-**Prompt:** "detailed naval warship with gun turrets"
-
----
-
 ## Troubleshooting
 
 ### Plugin Not Appearing in Tools Menu
@@ -282,24 +174,15 @@ Here are some examples of models generated with Lagomorph AI to inspire your own
 - Ensure you've restarted Unreal Engine after installation
 - Check the Plugins window (Edit → Plugins) to confirm Lagomorph is enabled
 
-### Generation Taking Too Long
-
-- Check your internet connection
-- Server load may be high during peak hours - try again later
-- Complex prompts naturally take longer to process
-
-### Unexpected Results
-
-- Refine your prompt to be more specific
-- Try adding style keywords (realistic, stylized, low-poly, etc.)
-- Use reference images in addition to text prompts
-- Generate multiple variations to see different interpretations
-
 ### Import Errors
 
 - Ensure you have write permissions in your Content folder
 - Verify sufficient disk space for asset import
 - Check Unreal Engine's Output Log for specific error messages
+
+### General Issues
+
+For troubleshooting unexpected results, generation timing issues, and prompt refinement strategies, see the **[Troubleshooting](features#troubleshooting)** section in Features.
 
 ---
 
@@ -312,13 +195,9 @@ Need help or have questions? We're here to assist!
 - **Documentation:** [https://docs.lagomorph.ai](https://docs.lagomorph.ai)
 
 > **Missing your favourite tool?**
-> 
+>
 > We want to make sure you can run Lagomorph on all your favourite platforms. Let us know where we should go next by emailing us or joining our Discord community!
 
 ---
 
-## Additional Resources
-
----
-
-*© Lagomorph AI 2025 • All rights reserved*
+_© Lagomorph AI 2025–2026 • All rights reserved_

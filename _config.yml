@@ -1,5 +1,5 @@
 title: Lagomorph AI Documentation
-description: Documentation for the Lagomorph AI 3D generator tool
+description: Documentation for Lagomorph AI - 3D asset generation for game developers
 theme: just-the-docs
 logo: "/images/logo-cropped.png"
 favicon_ico: "/images/favicon.ico"
@@ -8,6 +8,12 @@ url: https://lagomorphai.github.io/lagomorph_docs
 
 aux_links:
   Back to Homepage: https://lagomorph.ai/
+  Start Creating: https://app.lagomorph.ai
   Discord: https://discord.gg/RsNwwy3WCc
+aux_links_new_tab: true
 
 color_scheme: lagomorph
+search_enabled: true
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
