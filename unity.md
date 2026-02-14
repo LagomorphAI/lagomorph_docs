@@ -7,10 +7,11 @@ nav_order: 6
 # Lagomorph AI Plugin for Unity
 
 ## Table of Contents
+
 {: .no_toc }
 
 - TOC
-{:toc}
+  {:toc}
 
 **AI-driven 3D art generation directly in your Unity workflow. Create game-ready models from text and images in minutes.**
 
@@ -20,7 +21,7 @@ nav_order: 6
 
 ## Overview
 
-Lagomorph AI empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unity using natural language or reference images, dramatically reducing iteration time from concept to implementation.
+Lagomorph empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unity using natural language or reference images, dramatically reducing iteration time from concept to implementation.
 
 ### Key Features
 
@@ -85,7 +86,7 @@ This will launch the Lagomorph Editor Window
 
 ## Quick Start Guide
 
-Let's create your first AI-generated 3D model. This quick start will walk you through the basic workflow.
+Let's create your first 3D model. This quick start will walk you through the basic workflow.
 
 ### Creating Your First Model
 

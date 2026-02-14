@@ -7,10 +7,11 @@ nav_order: 7
 # Lagomorph AI Plugin for Unreal Engine
 
 ## Table of Contents
+
 {: .no_toc }
 
 - TOC
-{:toc}
+  {:toc}
 
 **AI-driven 3D art generation directly in your Unreal Engine workflow. Create game-ready models from text and images in minutes.**
 
@@ -20,7 +21,7 @@ nav_order: 7
 
 ## Overview
 
-Lagomorph AI empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unreal Engine using natural language or reference images, dramatically reducing iteration time from concept to implementation.
+Lagomorph empowers game developers with AI-driven 3D model generation. Generate game-ready assets directly within Unreal Engine using natural language or reference images, dramatically reducing iteration time from concept to implementation.
 
 ### Key Features
 
@@ -80,7 +81,7 @@ Open the **Tools** menu in Unreal Engine and select **Lagomorph Plugin** to laun
 
 ## Quick Start Guide
 
-Let's create your first AI-generated 3D model. This quick start will walk you through the basic workflow.
+Let's create your first 3D model. This quick start will walk you through the basic workflow.
 
 ### Creating Your First Model
 
