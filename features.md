@@ -128,8 +128,11 @@ If satisfied with the mesh shape:
 Download/import the model into your engine or 3D software:
 
 - **Unity**: FBX format (plugin auto-imports)
+![Unity import illustration](/videos/unity_import_model.gif)
 - **Unreal Engine**: OBJ format (plugin auto-imports)
+![Unreal import illustration](/videos/ue_import_model.gif)
 - **Other software**: Choose appropriate format from Lagomorph Web
+![Blender import illustration](/videos/blender_import_model.gif)
 
 ### 6. Iterate and Refine
 
