@@ -128,11 +128,10 @@ If satisfied with the mesh shape:
 Download/import the model into your engine or 3D software:
 
 - **Unity**: FBX format (plugin auto-imports)
-![Unity import illustration](/videos/unity_import_model.gif)
-- **Unreal Engine**: OBJ format (plugin auto-imports)
-![Unreal import illustration](/videos/ue_import_model.gif)
+![Unity import illustration](/images/unity_inspector.png)
+- **Unreal Engine**: GLB format (plugin auto-imports)
+![Unreal import illustration](/images/ue_import.png)
 - **Other software**: Choose appropriate format from Lagomorph Web
-![Blender import illustration](/videos/blender_import_model.gif)
 
 ### 6. Iterate and Refine
 
@@ -152,11 +151,12 @@ Use the generated model as a starting point:
 | Format  | Lagomorph Web | Unity Plugin | Unreal Plugin |
 | ------- | ------------- | ------------ | ------------- |
 | **FBX** | Yes           | Yes          | -             |
+| **GLB** | Yes           | -            | Yes           |
 | **OBJ** | Yes           | -            | Yes           |
 
 **FBX** is the native format for Unity and is widely supported across 3D software including Blender, Maya, and 3ds Max.
 
-**OBJ** is the native format for Unreal Engine and is also universally supported. It's a simpler format that works well for static meshes.
+**GLB** is the native format for Unreal Engine and is also universally supported. It's a simpler format that works well for static meshes.
 
 Both formats include the mesh geometry and any generated texture files.
 

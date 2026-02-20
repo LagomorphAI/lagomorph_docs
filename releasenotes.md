@@ -71,7 +71,7 @@ The initial public release of Lagomorph AI, available across web and game engine
 - **Export formats:**
   - Lagomorph Web: OBJ and FBX
   - Unity plugin: FBX
-  - Unreal Engine plugin: OBJ
+  - Unreal Engine plugin: GLB
 
 **Limits:**
 

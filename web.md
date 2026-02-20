@@ -110,6 +110,7 @@ Lagomorph Web supports exporting in both major 3D formats:
 | Format  | Best For                                 |
 | ------- | ---------------------------------------- |
 | **FBX** | Unity, Blender, most 3D software         |
+| **GLB** | Unreal Engine, Web, most 3D software     |
 | **OBJ** | Unreal Engine, Blender, most 3D software |
 
 Both formats include the mesh and any generated textures.
