@@ -1,2 +1,27 @@
 {% include structured-data.html %}
 <link rel="preload" href="{{ '/images/logo-cropped.png' | relative_url }}" as="image">
+
+<!-- vanilla-cookieconsent v3 styles (npm CDN) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.css">
+<link rel="stylesheet" href="{{ '/assets/css/cookieconsent-custom.css' | relative_url }}">
+
+<!-- GA4: set default denied state before any scripts run -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('consent', 'default', {
+    analytics_storage: 'denied',
+    wait_for_update: 500
+  });
+</script>
+
+<!-- GA4 script (respects consent state above) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-J689NHNZGP"></script>
+<script>gtag('config', 'G-J689NHNZGP');</script>
+
+<!-- vanilla-cookieconsent v3 UMD bundle — sets window.CookieConsent -->
+<script defer src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.umd.js"></script>
+
+<!-- CookieConsent configuration -->
+<script defer src="{{ '/assets/js/cookieconsent-config.js' | relative_url }}"></script>
