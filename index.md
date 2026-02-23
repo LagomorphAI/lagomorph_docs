@@ -1,10 +1,12 @@
 ---
-title: Home
+title: "Lagomorph AI — 3D Asset Generation for Game Developers"
 layout: home
 nav_order: 1
+description: "Generate game-ready 3D models from images or text prompts in minutes. Works with Unity, Unreal Engine, Blender, and more. Free to start."
+last_modified_at: 2026-02-23
 ---
 
-# Overview
+# Lagomorph AI — Generate 3D Models from Images and Prompts
 
 ## Table of Contents
 {: .no_toc }
@@ -12,7 +14,7 @@ nav_order: 1
 - TOC
 {:toc}
 
-Lagomorph turns images and text prompts into game-ready 3D models, ready to be imported into Unity, Unreal, Blender, and others.
+Lagomorph turns images and text prompts into game-ready 3D models, ready to import into Unity, Unreal Engine, Blender, and other 3D tools. Generate props, weapons, furniture, vehicles, and architecture in 2–5 minutes. Export as FBX (Unity) or OBJ (Unreal Engine, Blender). Available free via browser or as native editor plugins.
 
 ## Who Uses Lagomorph?
 

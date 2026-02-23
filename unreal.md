@@ -1,7 +1,11 @@
 ---
-title: Unreal Engine
+title: "Unreal Engine Plugin — AI 3D Generation in Unreal"
 layout: page
 nav_order: 7
+description: "Install the Lagomorph AI Unreal Engine plugin to generate 3D assets inside Unreal Engine 5.6 or higher using text prompts or reference images."
+last_modified_at: 2026-02-23
+schema_proficiency: Beginner
+schema_dependencies: "Unreal Engine 5.6 or higher, Windows, active internet connection"
 ---
 
 # Lagomorph AI Plugin for Unreal Engine

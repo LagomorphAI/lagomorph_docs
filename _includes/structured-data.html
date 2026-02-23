@@ -1,0 +1,79 @@
+{% if page.url == "/" or page.url == "/index.html" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}/",
+  "description": "{{ site.description }}",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lagomorph AI",
+    "url": "https://lagomorph.ai",
+    "logo": { "@type": "ImageObject", "url": "{{ site.url }}/images/logo-cropped.png" }
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Lagomorph AI",
+  "operatingSystem": "Windows, Web",
+  "applicationCategory": "GameApplication",
+  "description": "AI-powered 3D asset generation for game developers. Generate game-ready 3D models from images or text prompts for Unity, Unreal Engine, and Blender.",
+  "url": "https://app.lagomorph.ai",
+  "documentation": "{{ site.url }}/",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "Lagomorph AI", "url": "https://lagomorph.ai" }
+}
+</script>
+{% elsif page.title == "Troubleshooting & FAQs — Lagomorph AI" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are there usage limits on Lagomorph AI?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Lagomorph enforces monthly morph limits that vary by plan. See the Usage Limits page for details." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is there a quality difference between Image to 3D and Text to 3D?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Image to 3D uses the Morph Core pipeline and produces the most reliable results. Text to 3D is in preview and uses a lighter method while quality improves." }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my generated models gray?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Generated meshes do not include materials by default. Materials are added as a separate post-generation step after you review the mesh shape." }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use Lagomorph-generated assets in commercial projects?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes. Assets generated with Lagomorph are owned by you and can be used in commercial projects." }
+    }
+  ]
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TechArticle",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description | default: site.description }}",
+  "dateModified": "{{ page.last_modified_at | default: '2026-02-23' }}",
+  "author": { "@type": "Organization", "name": "Lagomorph AI", "url": "https://lagomorph.ai" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Lagomorph AI",
+    "logo": { "@type": "ImageObject", "url": "{{ site.url }}/images/logo-cropped.png" }
+  },
+  "url": "{{ site.url }}{{ page.url }}"{% if page.schema_proficiency %},
+  "proficiencyLevel": "{{ page.schema_proficiency }}"{% endif %}{% if page.schema_dependencies %},
+  "dependencies": "{{ page.schema_dependencies }}"{% endif %}
+}
+</script>
+{% endif %}

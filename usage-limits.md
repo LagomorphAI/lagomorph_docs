@@ -1,7 +1,9 @@
 ---
-title: Usage Limits
+title: "Usage Limits — Lagomorph AI"
 layout: page
 nav_order: 3.5
+description: "Monthly morph limits by plan tier for Lagomorph AI. Understand how morphs are counted and how to maximize your monthly allocation."
+last_modified_at: 2026-02-23
 ---
 
 # Usage Limits

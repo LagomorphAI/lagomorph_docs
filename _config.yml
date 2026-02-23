@@ -1,10 +1,35 @@
 title: Lagomorph AI Documentation
-description: Documentation for Lagomorph AI - 3D asset generation for game developers
+description: "AI-powered 3D asset generation for game developers. Generate game-ready 3D models from images or text prompts for Unity, Unreal Engine, Blender, and more."
 theme: just-the-docs
 logo: "/images/logo-cropped.png"
 favicon_ico: "/images/favicon.ico"
 
-url: https://lagomorphai.github.io/lagomorph_docs
+url: https://docs.lagomorph.ai
+baseurl: ""
+
+twitter:
+  username: lagomorphai
+  card: summary_large_image
+
+author:
+  name: Lagomorph AI
+  url: https://lagomorph.ai
+
+social:
+  name: Lagomorph AI
+  links:
+    - https://twitter.com/lagomorphai
+    - https://instagram.com/lagomorphai
+    - https://discord.gg/RsNwwy3WCc
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/og-image.png
+
+plugins:
+  - jekyll-sitemap
 
 aux_links:
   Back to Homepage: https://lagomorph.ai/
@@ -17,3 +42,5 @@ search_enabled: true
 heading_anchors: true
 back_to_top: true
 back_to_top_text: "Back to top"
+
+footer_content: "&copy; Lagomorph AI 2025&ndash;2026 &middot; All rights reserved"

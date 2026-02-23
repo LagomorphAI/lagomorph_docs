@@ -1,0 +1,38 @@
+# Lagomorph AI Documentation
+
+> Lagomorph AI generates game-ready 3D models from images and text prompts.
+> Outputs are compatible with Unity, Unreal Engine, Blender, and other 3D tools.
+> Available as a web app and as native editor plugins for Unity and Unreal Engine.
+
+Lagomorph is an AI-powered 3D asset generation tool for game developers and game artists.
+Users generate 3D models by uploading reference images (Image to 3D) or entering text prompts
+(Text to 3D). Output formats include FBX (Unity) and OBJ (Unreal Engine, general use).
+The tool handles mesh generation, optional texture generation, and UV mapping automatically.
+Generation typically takes 2–5 minutes per model.
+
+## Getting Started
+
+- [Home / Overview](https://docs.lagomorph.ai/): Introduction to Lagomorph AI and supported platforms
+- [Getting Started](https://docs.lagomorph.ai/gettingstarted.html): Step-by-step setup for new users across all platforms
+
+## Platform Documentation
+
+- [Lagomorph Web](https://docs.lagomorph.ai/web.html): Browser-based 3D generation at app.lagomorph.ai — no install required
+- [Unity Plugin](https://docs.lagomorph.ai/unity.html): Installation and usage of the Lagomorph AI plugin for Unity 6+
+- [Unreal Engine Plugin](https://docs.lagomorph.ai/unreal.html): Installation and usage of the Lagomorph AI plugin for Unreal Engine 5.6+
+
+## Features & Limits
+
+- [Features](https://docs.lagomorph.ai/features.html): Complete feature reference — generation modes, parameters, export formats, prompt engineering
+- [Usage Limits](https://docs.lagomorph.ai/usage-limits.html): Monthly morph limits by plan tier
+- [Lagomorph Pro](https://docs.lagomorph.ai/lagomorph-pro.html): Pro plan features and pricing
+
+## Support
+
+- [Troubleshooting & FAQs](https://docs.lagomorph.ai/troubleshooting.html): Common issues and answers
+- [Community & Support](https://docs.lagomorph.ai/community.html): Discord and email support channels
+
+## Optional
+
+- [Best Practices & Ethics](https://docs.lagomorph.ai/ethics.html): Responsible use, commercial rights, content policies
+- [Release Notes & Roadmap](https://docs.lagomorph.ai/releasenotes.html): Version history and upcoming features

@@ -1,7 +1,10 @@
 ---
-title: Features
+title: "Features — Lagomorph AI"
 layout: page
 nav_order: 3
+description: "Full feature reference for Lagomorph AI: Image to 3D, Text to 3D (preview), automatic texturing, mesh simplification, export formats (FBX, OBJ), and prompt engineering tips."
+last_modified_at: 2026-02-23
+schema_proficiency: Beginner
 ---
 
 # Features

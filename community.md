@@ -1,7 +1,9 @@
 ---
-title: Support & Community
+title: "Support & Community — Lagomorph AI"
 layout: page
 nav_order: 10
+description: "Get help with Lagomorph AI via Discord, email support, and community resources. Join the community of game developers using AI-powered 3D generation."
+last_modified_at: 2026-02-23
 ---
 
 # Support & Community
