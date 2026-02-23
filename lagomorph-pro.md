@@ -1,7 +1,9 @@
 ---
-title: Lagomorph Pro
+title: "Lagomorph Pro — Coming Soon"
 layout: page
 nav_order: 4
+description: "Lagomorph Pro is an upcoming premium tier for professional game developers. Planned features include Morph Pro quality, higher monthly limits, API access, user accounts, priority processing, and early access to new features."
+last_modified_at: 2026-02-23
 ---
 
 # Lagomorph Pro
@@ -63,7 +65,3 @@ We're building Lagomorph Pro based on what game developers actually need. If the
 - Email us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai)
 
 Your input directly shapes what we build.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

@@ -1,7 +1,10 @@
 ---
-title: Lagomorph Web
+title: "Lagomorph Web — Browser-Based 3D Generation"
 layout: page
 nav_order: 5
+description: "Use Lagomorph AI in your browser with no downloads or installs. Generate 3D models from images or text at app.lagomorph.ai and export as FBX or OBJ."
+last_modified_at: 2026-02-23
+schema_proficiency: Beginner
 ---
 
 # Lagomorph Web
@@ -180,7 +183,3 @@ Need help or have feedback? We're a small team and we read every message.
 > **Missing a feature?**
 >
 > We build Lagomorph based on what game developers actually need. If there's something you'd love to see, tell us on Discord or email, it genuinely shapes our roadmap.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

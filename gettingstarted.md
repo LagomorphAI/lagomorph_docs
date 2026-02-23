@@ -1,8 +1,10 @@
 ---
-title: Getting Started
+title: "Getting Started with Lagomorph AI"
 layout: page
 nav_order: 2
 has_children: true
+description: "Start generating 3D models in minutes. Choose between Lagomorph Web (no install), the Unity plugin, or the Unreal Engine plugin and create your first model today."
+last_modified_at: 2026-02-23
 ---
 
 # Getting Started
@@ -85,7 +87,3 @@ Regardless of which platform you're using, here are some tips for getting the be
 - **Iterate**: morph the same prompt a few times to get variations, then pick your favourite
 
 For detailed tips on writing effective prompts and getting the most out of each morph, see the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

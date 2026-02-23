@@ -1,7 +1,10 @@
 ---
-title: Features
+title: "Features — Lagomorph AI"
 layout: page
 nav_order: 3
+description: "Full feature reference for Lagomorph AI: Image to 3D, Text to 3D (preview), automatic texturing, mesh simplification, export formats (FBX, OBJ), and prompt engineering tips."
+last_modified_at: 2026-02-23
+schema_proficiency: Beginner
 ---
 
 # Features
@@ -263,7 +266,3 @@ We believe in being upfront about where things stand:
 - **Inorganic objects work best**: props, weapons, furniture, and architecture produce the strongest results
 - **Single objects only**: the system works best for individual objects rather than complex multi-part scenes
 - **Processing times vary**: generation typically takes 2–5 minutes but may be longer during peak usage
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

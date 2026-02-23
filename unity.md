@@ -1,7 +1,11 @@
 ---
-title: Unity
+title: "Unity Plugin — AI 3D Generation in the Unity Editor"
 layout: page
 nav_order: 6
+description: "Install the Lagomorph AI Unity plugin to generate game-ready 3D models directly inside the Unity 6 Editor from text prompts or reference images."
+last_modified_at: 2026-02-23
+schema_proficiency: Beginner
+schema_dependencies: "Unity 6.x or higher, Windows, active internet connection"
 ---
 
 # Lagomorph AI Plugin for Unity
@@ -203,7 +207,3 @@ Need help or have questions? We're here to assist!
 > **Missing your favourite tool?**
 >
 > We want to make sure you can run Lagomorph on all your favourite platforms. Let us know where we should go next by emailing us or joining our Discord community!
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

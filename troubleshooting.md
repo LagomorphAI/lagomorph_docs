@@ -1,7 +1,9 @@
 ---
-title: Troubleshooting & FAQs
+title: "Troubleshooting & FAQs — Lagomorph AI"
 layout: page
 nav_order: 8
+description: "Answers to common Lagomorph AI questions: usage limits, model quality, missing textures, plugin installation, commercial use, and more."
+last_modified_at: 2026-02-23
 ---
 
 # Troubleshooting & FAQs
@@ -18,16 +20,20 @@ Having trouble? Check below for common questions and solutions. If you can't fin
 
 ## Frequently Asked Questions
 
-**Are there any usage limits?**
-Yes. See [Usage Limits](usage-limits) for details on monthly morph limits and how they work.
+### Are there any usage limits?
 
-**Why is there a quality difference between morph methods?**
-Image to 3D uses our Morph Core generation pipeline and produces the most reliable results. Text to 3D is still in preview and uses a lighter method while we gather feedback and improve it. Quality improvements to Text to 3D are actively in development.
+Yes. Lagomorph enforces monthly morph limits that vary by plan. See [Usage Limits](usage-limits) for details on monthly morph limits and how they work.
 
-**Why are my models gray?**
-By default, generated meshes don't have materials added. Materials can be added as a post-generation step. Look for the material generation option after your mesh is ready. See [Materials & Textures](features#materials--textures) for details.
+### Why is there a quality difference between morph methods?
 
-**Can I use generated assets in commercial projects?**
+Image to 3D uses the Morph Core generation pipeline and produces the most reliable results. Text to 3D is still in preview and uses a lighter method while we gather feedback and improve it. Quality improvements to Text to 3D are actively in development.
+
+### Why are my models gray?
+
+Generated meshes do not include materials by default. Materials are added as a separate post-generation step. Look for the material generation option after your mesh is ready. See [Materials & Textures](features#materials--textures) for details.
+
+### Can I use generated assets in commercial projects?
+
 Yes. Assets generated with Lagomorph are owned by you and can be used in commercial projects. See [Best Practices & Ethics](ethics) for full details.
 
 ---
@@ -89,7 +95,3 @@ Yes. Assets generated with Lagomorph are owned by you and can be used in commerc
 
 - **Email:** [hello@lagomorph.ai](mailto:hello@lagomorph.ai)
 - **Discord:** [Join our community](https://discord.gg/RsNwwy3WCc)
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

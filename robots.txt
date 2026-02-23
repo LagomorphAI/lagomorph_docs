@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# AI crawlers — explicitly welcomed for citation and knowledge indexing
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+Sitemap: https://docs.lagomorph.ai/sitemap.xml

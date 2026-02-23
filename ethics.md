@@ -1,7 +1,9 @@
 ---
-title: Best Practices & Ethics
+title: "Best Practices & Ethics — Lagomorph AI"
 layout: page
 nav_order: 9
+description: "Responsible use guidelines for Lagomorph AI: commercial rights, content policies, best practices for asset pipelines, and ethical considerations for AI-generated 3D content."
+last_modified_at: 2026-02-23
 ---
 
 # Best Practices & Ethics
@@ -75,7 +77,3 @@ Please do not use Lagomorph AI to generate:
 - Content intended to harass or harm others
 - Content that violates applicable laws in your jurisdiction
 - Deliberate replicas of copyrighted or trademarked works
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

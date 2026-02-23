@@ -1,7 +1,9 @@
 ---
-title: Release Notes & Roadmap
+title: "Release Notes & Roadmap — Lagomorph AI"
 layout: page
 nav_order: 11
+description: "Lagomorph AI version history, recent updates, bug fixes, and upcoming roadmap features."
+last_modified_at: 2026-02-23
 ---
 
 # Release Notes & Roadmap
@@ -79,7 +81,3 @@ The initial public release of Lagomorph AI, available across web and game engine
 - 50 texture generations per month
 
 <!-- TODO: Add any earlier version history or milestones here -->
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_
