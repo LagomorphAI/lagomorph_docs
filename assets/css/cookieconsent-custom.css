@@ -1,27 +1,10 @@
 /* Lagomorph brand overrides for vanilla-cookieconsent v3 */
 
 #cc-main {
-  /* Primary action button (Accept all) → orange */
-  --cc-btn-primary-bg: rgb(243, 110, 68);
-  --cc-btn-primary-hover-bg: rgb(220, 90, 50);
-  --cc-btn-primary-border-color: rgb(243, 110, 68);
-  --cc-btn-primary-hover-border-color: rgb(220, 90, 50);
-  --cc-btn-primary-color: #fff;
-  --cc-btn-primary-hover-color: #fff;
+  --cc-btn-primary-bg: #2b7886;
+  --cc-btn-primary-border-color: #2b7886;
+  --cc-btn-primary-hover-bg: #444444;
+  --cc-btn-primary-hover-border-color: #444444;
 
-  /* Secondary button (Use basic analytics only / Save preferences) → teal outline */
-  --cc-btn-secondary-bg: #fff;
-  --cc-btn-secondary-hover-bg: #f0f8f9;
-  --cc-btn-secondary-border-color: #398e9b;
-  --cc-btn-secondary-hover-border-color: #2d7280;
-  --cc-btn-secondary-color: #398e9b;
-  --cc-btn-secondary-hover-color: #2d7280;
-
-  /* Toggle (on state) → teal */
-  --cc-toggle-on-bg: #398e9b;
-  --cc-toggle-on-knob-bg: #fff;
-
-  /* Links → teal */
-  --cc-link-color: #398e9b;
-  --cc-link-hover-color: #2d7280;
+  --cc-toggle-on-bg: var(--cc-btn-primary-bg);
 }
