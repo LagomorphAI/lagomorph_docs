@@ -263,7 +263,3 @@ We believe in being upfront about where things stand:
 - **Inorganic objects work best**: props, weapons, furniture, and architecture produce the strongest results
 - **Single objects only**: the system works best for individual objects rather than complex multi-part scenes
 - **Processing times vary**: generation typically takes 2–5 minutes but may be longer during peak usage
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

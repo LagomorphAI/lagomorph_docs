@@ -77,7 +77,3 @@ Please do not use Lagomorph AI to generate:
 - Content intended to harass or harm others
 - Content that violates applicable laws in your jurisdiction
 - Deliberate replicas of copyrighted or trademarked works
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

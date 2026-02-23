@@ -65,7 +65,3 @@ We're building Lagomorph Pro based on what game developers actually need. If the
 - Email us at [hello@lagomorph.ai](mailto:hello@lagomorph.ai)
 
 Your input directly shapes what we build.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

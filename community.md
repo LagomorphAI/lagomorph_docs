@@ -72,7 +72,3 @@ Lagomorph AI is built by two game enthusiasts who wanted to make 3D asset creati
 - [Discord Community](https://discord.gg/RsNwwy3WCc)
 - [Unity Plugin](https://github.com/LagomorphAI/unity-engine-plugin-release)
 - [Unreal Engine Plugin](https://github.com/LagomorphAI/unreal-engine-plugin-release)
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

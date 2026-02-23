@@ -87,7 +87,3 @@ Regardless of which platform you're using, here are some tips for getting the be
 - **Iterate**: morph the same prompt a few times to get variations, then pick your favourite
 
 For detailed tips on writing effective prompts and getting the most out of each morph, see the [Prompt Engineering & Best Practices](features#prompt-engineering--best-practices) guide.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

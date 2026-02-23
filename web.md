@@ -182,7 +182,3 @@ Need help or have feedback? We're a small team and we read every message.
 > **Missing a feature?**
 >
 > We build Lagomorph based on what game developers actually need. If there's something you'd love to see, tell us on Discord or email, it genuinely shapes our roadmap.
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

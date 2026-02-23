@@ -202,7 +202,3 @@ Need help or have questions? We're here to assist!
 > **Missing your favourite tool?**
 >
 > We want to make sure you can run Lagomorph on all your favourite platforms. Let us know where we should go next by emailing us or joining our Discord community!
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

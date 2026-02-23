@@ -52,7 +52,3 @@ Generate 3D assets directly in the Unreal Engine. Upload images or enter prompts
 - **Godot** plugin in development
 
 Have any feedback? [Join our Discord](https://discord.gg/RsNwwy3WCc)
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

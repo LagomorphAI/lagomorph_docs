@@ -76,7 +76,3 @@ To maximize the value of your monthly morphs:
 ---
 
 _Need help? Reach out at [hello@lagomorph.ai](mailto:hello@lagomorph.ai) or join our [Discord](https://discord.gg/RsNwwy3WCc)_
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

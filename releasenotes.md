@@ -81,7 +81,3 @@ The initial public release of Lagomorph AI, available across web and game engine
 - 50 texture generations per month
 
 <!-- TODO: Add any earlier version history or milestones here -->
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_

@@ -95,7 +95,3 @@ Yes. Assets generated with Lagomorph are owned by you and can be used in commerc
 
 - **Email:** [hello@lagomorph.ai](mailto:hello@lagomorph.ai)
 - **Discord:** [Join our community](https://discord.gg/RsNwwy3WCc)
-
----
-
-_© Lagomorph AI 2025–2026 • All rights reserved_
